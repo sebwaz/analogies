@@ -10,11 +10,12 @@ canvas
     margin:      auto;
     display:     block;
     position:    absolute;
-    top:         0;
-    bottom:      0;
-    left:        0;
+    top:         50%;
+    left:        50%;
     right:       0;
     z-index:     -1;
+    margin-top:  -240px;
+    margin-left: -320px;
 }
 
 .t_left
@@ -26,8 +27,8 @@ canvas
     position:    absolute;
     top:         50%;
     left:        50%;
-    margin-top:  -144px;
-    margin-left: -216px;
+    margin-top:  -223px;
+    margin-left: -223px;
 }
 
 .t_center
@@ -39,8 +40,8 @@ canvas
     position:    absolute;
     top:         50%;
     left:        50%;
-    margin-top:  -144px;
-    margin-left: -64px;
+    margin-top:  -223px;
+    margin-left: -71px;
 }
 
 .t_right
@@ -52,8 +53,8 @@ canvas
     position:    absolute;
     top:         50%;
     left:        50%;
-    margin-top:  -144px;
-    margin-left: 88px;
+    margin-top:  -223px;
+    margin-left: 81px;
 }
 
 .m_left
@@ -65,8 +66,8 @@ canvas
     position:    absolute;
     top:         50%;
     left:        50%;
-    margin-top:  8px;
-    margin-left: -216px;
+    margin-top:  -71px;
+    margin-left: -223px;
 }
 
 .m_center
@@ -78,8 +79,8 @@ canvas
     position:    absolute;
     top:         50%;
     left:        50%;
-    margin-top:  8px;
-    margin-left: -64px;
+    margin-top:  -71px;
+    margin-left: -71px;
 }
 
 .m_right
@@ -91,8 +92,8 @@ canvas
     position:    absolute;
     top:         50%;
     left:        50%;
-    margin-top:  8px;
-    margin-left: 88px;
+    margin-top:  -71px;
+    margin-left: 81px;
 }
 
 .b_left
@@ -104,8 +105,8 @@ canvas
     position:    absolute;
     top:         50%;
     left:        50%;
-    margin-top:  160px;
-    margin-left: -216px;
+    margin-top:  81px;
+    margin-left: -223px;
 }
 
 .b_center
@@ -117,8 +118,8 @@ canvas
     position:    absolute;
     top:         50%;
     left:        50%;
-    margin-top:  160px;
-    margin-left: -64px;
+    margin-top:  81px;
+    margin-left: -71px;
 }
 
 .b_right
@@ -130,6 +131,6 @@ canvas
     position:    absolute;
     top:         50%;
     left:        50%;
-    margin-top:  160px;
-    margin-left: 88px;
+    margin-top:  81px;
+    margin-left: 81px;
 }
