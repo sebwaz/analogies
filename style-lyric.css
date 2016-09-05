@@ -8,46 +8,51 @@ a.suspend:hover { color:#ffffff; }
 /* text styling */
 .textheat
 {
-    padding:     0;
-    display:     block;
-    position:    absolute;
-    top:         10%;
-    left:        10%;
+    padding:        0;
+    padding-bottom: 70;
+    display:        block;
+    position:       absolute;
+    top:            10%;
+    left:           10%;
 }
 
 .textwindy
 {
-    padding:     0;
-    display:     block;
-    position:    absolute;
-    top:         10%;
-    left:        10%;
-    margin-top:  120px;
+    padding:        0;
+    padding-bottom: 70;
+    display:        block;
+    position:       absolute;
+    top:            10%;
+    left:           10%;
+    margin-top:     120px;
 }
 
 .textsink
 {
-    padding:     0;
-    display:     block;
-    position:    absolute;
-    text-align:  right;
-    top:         10%;
-    left:        30%;
-    margin-top:  50px;
+    padding:        0;
+    padding-bottom: 70;
+    display:        block;
+    position:       absolute;
+    text-align:     right;
+    top:            10%;
+    left:           30%;
+    margin-top:     50px;
 }
 
 .textmount
 {
-    padding:     0;
-    display:     block;
-    position:    absolute;
-    text-align:  left;
-    top:         25%;
-    left:        25%;
+    padding:        0;
+    padding-bottom: 70;
+    display:        block;
+    position:       absolute;
+    text-align:     left;
+    top:            25%;
+    left:           25%;
 }
 
 .textsleep
 {
+    padding:        0;
     padding-bottom: 70;
     display:        block;
     position:       absolute;
@@ -55,7 +60,7 @@ a.suspend:hover { color:#ffffff; }
     top:            0%;
     left:           0%;
     margin-top:     280px;
-    margin-left:    50px;
+    margin-left:    100px;
     width:          480px;
 }
 
@@ -63,6 +68,7 @@ a.suspend:hover { color:#ffffff; }
 {
     
     padding:        0;
+    padding-bottom: 70;
     display:        block;
     position:       absolute;
     text-align:     left;
@@ -79,12 +85,51 @@ a.suspend:hover { color:#ffffff; }
     transform:         rotate(-90deg);
     
     padding:        0;
+    padding-bottom: 70;
     display:        block;
     position:       absolute;
+    text-align:     left;
     top:            0%;
     left:           50%;
     width:          400px;
     margin-left:    -200px;
+}
+
+.textbit
+{
+    padding:        0;
+    padding-bottom: 70;
+    display:        block;
+    position:       absolute;
+}
+
+.textprovide
+{
+    padding:        0;
+    padding-bottom: 70;
+    display:        block;
+    position:       absolute;
+}
+
+.textsad
+{
+    padding:        0;
+    padding-bottom: 70;
+    display:        block;
+    position:       absolute;
+}
+
+.texthumor
+{
+    padding:        0;
+    padding-bottom: 70;
+    top:            100%;
+    left:           100%;
+    display:        block;
+    position:       absolute;
+    text-align:     right;
+    margin-top:     -260px;
+    margin-left:    -400px;
 }
 
 
@@ -146,9 +191,33 @@ a.suspend:hover { color:#ffffff; }
     top:         0%;
     left:        0%;
     margin-top:  40px;
-    margin-left: 50px;
+    margin-left: 100px;
     z-index:     1;
 }
+
+.provide
+{
+    padding:     0;
+    display:     block;
+    position:    absolute;
+    margin-top:  130px;
+    margin-left: 250px;
+    z-index:     -1;
+}
+
+.sad{
+    padding:        0;
+    top:            100%;
+    left:           100%;
+    display:        block;
+    position:       absolute;
+    text-align:     right;
+    margin-top:     -260px;
+    margin-left:    -400px;
+    mix-blend-mode: multiply;
+    z-index:        -1;
+}
+
 
 
 
