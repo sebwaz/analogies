@@ -136,7 +136,7 @@ canvas
 }
 
 .download a { color: #000000; text-decoration: none;}
-.download a:hover, a:active, a:focus { color: #0000ff; }
+.download a:hover, .download a:active, .download a:focus { color: #0000ff; }
 
 .download
 {
@@ -163,7 +163,7 @@ canvas
 }
 
 .footer a { color: #000000; }
-.footer a:hover, a:active, a:focus { color: #0000ff; }
+.footer a:hover, .footer a:active, .footer a:focus { color: #0000ff; }
 
 .footer
 {

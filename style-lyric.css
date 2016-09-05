@@ -3,6 +3,8 @@ a { color: #000000; }
 a.suspend       { color:#ffb03a; text-decoration: none}
 a.suspend:hover { color:#ffffff; }
 
+
+
 /* text styling */
 .textheat
 {
@@ -70,6 +72,21 @@ a.suspend:hover { color:#ffffff; }
     margin-left:    50px;
 }
 
+.textbikes
+{
+    -ms-transform:     rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform:         rotate(-90deg);
+    
+    padding:        0;
+    display:        block;
+    position:       absolute;
+    top:            0%;
+    left:           50%;
+    width:          400px;
+    margin-left:    -200px;
+}
+
 
 
 /* img styling */
@@ -132,6 +149,7 @@ a.suspend:hover { color:#ffffff; }
     margin-left: 50px;
     z-index:     1;
 }
+
 
 
 /* for download page */
