@@ -196,6 +196,16 @@ a.suspend:hover { color:#ffffff; }
     z-index:     1;
 }
 
+.bitcrush
+{
+    padding:     0px;
+    display:     block;
+    position:    absolute;
+    margin-top:  130px;
+    margin-left: 270px;
+    z-index:     -1;
+}
+
 .provide
 {
     padding:     0px;
@@ -265,3 +275,39 @@ a.suspend:hover { color:#ffffff; }
     text-align: center;
     color: #ffffff;
 }
+
+
+
+/* for prev and next buttons */
+
+.prev
+{
+    padding-bottom: 0px;
+    display:        block;
+    position:       absolute;
+    top:            0%;
+    left:           0%;
+    margin-top:     50px;
+    margin-left:    30px;
+    font-size:      24;
+    z-index:        2;
+}
+
+.prev a                                     { color:#000000; text-decoration: none}
+.prev a:hover, .prev a:hover, .prev a:hover { color:#ffffff; }
+
+.next
+{
+    padding-bottom: 0px;
+    display:        block;
+    position:       absolute;
+    top:            0%;
+    left:           0%;
+    margin-top:     20px;
+    margin-left:    30px;
+    font-size:      24;
+    z-index:        2;
+}
+
+.next a                                     { color:#000000; text-decoration: none}
+.next a:hover, .next a:hover, .next a:hover { color:#ffffff; }
