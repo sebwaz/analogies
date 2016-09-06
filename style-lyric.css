@@ -14,8 +14,8 @@ a.suspend:hover { color:#ffffff; }
     position:       absolute;
     top:            0%;
     left:           0%;
-    margin-top:     80px;
-    margin-left:    80px;
+    margin-top:     100px;
+    margin-left:    120px;
 }
 
 .textwindy
@@ -143,10 +143,10 @@ a.suspend:hover { color:#ffffff; }
     padding:     0px;
     display:     block;
     position:    absolute;
-    top:         10%;
-    left:        10%;
-    margin-top:  180px;
-    margin-left: 360px;
+    top:         0%;
+    left:        0%;
+    margin-top:  280px;
+    margin-left: 480px;
     z-index:     -1;
 }
 
@@ -198,6 +198,18 @@ a.suspend:hover { color:#ffffff; }
     z-index:     1;
 }
 
+.bikes
+{
+    padding:     0px;
+    display:     block;
+    position:    absolute;
+    top:         0%;
+    left:        50%;
+    margin-top:  50px;
+    margin-left: -600px;
+    z-index:     -1;
+}
+
 .bitcrush
 {
     padding:     0px;
@@ -213,7 +225,7 @@ a.suspend:hover { color:#ffffff; }
     padding:     0px;
     display:     block;
     position:    absolute;
-    margin-top:  130px;
+    margin-top:  20px;
     margin-left: 270px;
     z-index:     -1;
 }
@@ -289,7 +301,7 @@ a.suspend:hover { color:#ffffff; }
     position:       absolute;
     top:            0%;
     left:           0%;
-    margin-top:     55px;
+    margin-top:     110px;
     margin-left:    30px;
     font-size:      32;
     z-index:        2;
@@ -305,7 +317,7 @@ a.suspend:hover { color:#ffffff; }
     position:       absolute;
     top:            0%;
     left:           0%;
-    margin-top:     110px;
+    margin-top:     55px;
     margin-left:    30px;
     font-size:      32;
     z-index:        2;
