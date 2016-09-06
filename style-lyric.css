@@ -12,8 +12,10 @@ a.suspend:hover { color:#ffffff; }
     padding-bottom: 70px;
     display:        block;
     position:       absolute;
-    top:            10%;
-    left:           10%;
+    top:            0%;
+    left:           0%;
+    margin-top:     80px;
+    margin-left:    80px;
 }
 
 .textwindy
@@ -287,9 +289,9 @@ a.suspend:hover { color:#ffffff; }
     position:       absolute;
     top:            0%;
     left:           0%;
-    margin-top:     50px;
+    margin-top:     55px;
     margin-left:    30px;
-    font-size:      24;
+    font-size:      32;
     z-index:        2;
 }
 
@@ -303,9 +305,9 @@ a.suspend:hover { color:#ffffff; }
     position:       absolute;
     top:            0%;
     left:           0%;
-    margin-top:     20px;
+    margin-top:     110px;
     margin-left:    30px;
-    font-size:      24;
+    font-size:      32;
     z-index:        2;
 }
 
