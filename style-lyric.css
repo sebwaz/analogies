@@ -8,8 +8,8 @@ a.suspend:hover { color:#ffffff; }
 /* text styling */
 .textheat
 {
-    padding:        0;
-    padding-bottom: 70;
+    padding:        0px;
+    padding-bottom: 70px;
     display:        block;
     position:       absolute;
     top:            10%;
@@ -18,8 +18,8 @@ a.suspend:hover { color:#ffffff; }
 
 .textwindy
 {
-    padding:        0;
-    padding-bottom: 70;
+    padding:        0px;
+    padding-bottom: 70px;
     display:        block;
     position:       absolute;
     top:            10%;
@@ -29,8 +29,8 @@ a.suspend:hover { color:#ffffff; }
 
 .textsink
 {
-    padding:        0;
-    padding-bottom: 70;
+    padding:        0px;
+    padding-bottom: 70px;
     display:        block;
     position:       absolute;
     text-align:     right;
@@ -41,8 +41,8 @@ a.suspend:hover { color:#ffffff; }
 
 .textmount
 {
-    padding:        0;
-    padding-bottom: 70;
+    padding:        0px;
+    padding-bottom: 70px;
     display:        block;
     position:       absolute;
     text-align:     left;
@@ -52,8 +52,8 @@ a.suspend:hover { color:#ffffff; }
 
 .textsleep
 {
-    padding:        0;
-    padding-bottom: 70;
+    padding:        0px;
+    padding-bottom: 70px;
     display:        block;
     position:       absolute;
     text-align:     left;
@@ -67,8 +67,8 @@ a.suspend:hover { color:#ffffff; }
 .textsuspend
 {
     
-    padding:        0;
-    padding-bottom: 70;
+    padding:        0px;
+    padding-bottom: 70px;
     display:        block;
     position:       absolute;
     text-align:     left;
@@ -84,8 +84,8 @@ a.suspend:hover { color:#ffffff; }
     -webkit-transform: rotate(-90deg);
     transform:         rotate(-90deg);
     
-    padding:        0;
-    padding-bottom: 70;
+    padding:        0px;
+    padding-bottom: 70px;
     display:        block;
     position:       absolute;
     text-align:     left;
@@ -97,33 +97,33 @@ a.suspend:hover { color:#ffffff; }
 
 .textbit
 {
-    padding:        0;
-    padding-bottom: 70;
+    padding:        0px;
+    padding-bottom: 70px;
     display:        block;
     position:       absolute;
 }
 
 .textprovide
 {
-    padding:        0;
-    padding-bottom: 70;
+    padding:        0px;
+    padding-bottom: 70px;
     display:        block;
     position:       absolute;
 }
 
 .textsad
 {
-    padding:        0;
-    padding-bottom: 70;
+    padding:        0px;
+    padding-bottom: 70px;
     display:        block;
     position:       absolute;
 }
 
 .texthumor
 {
-    padding:        0;
-    padding-bottom: 70;
-    width:          400;
+    padding:        0px;
+    padding-bottom: 70px;
+    width:          400px;
     top:            100%;
     left:           100%;
     display:        block;
@@ -138,7 +138,7 @@ a.suspend:hover { color:#ffffff; }
 /* img styling */
 .heat
 {
-    padding:     0;
+    padding:     0px;
     display:     block;
     position:    absolute;
     top:         10%;
@@ -150,7 +150,7 @@ a.suspend:hover { color:#ffffff; }
 
 .windy
 {
-    padding:     0;
+    padding:     0px;
     display:     block;
     position:    absolute;
     top:         10%;
@@ -162,7 +162,7 @@ a.suspend:hover { color:#ffffff; }
 
 .sinking
 {
-    padding:     0;
+    padding:     0px;
     display:     block;
     position:    absolute;
     top:         10%;
@@ -174,7 +174,7 @@ a.suspend:hover { color:#ffffff; }
 
 .mountain
 {
-    padding:     0;
+    padding:     0px;
     display:     block;
     position:    absolute;
     top:         25%;
@@ -186,7 +186,7 @@ a.suspend:hover { color:#ffffff; }
 
 .sleep
 {
-    padding:     0;
+    padding:     0px;
     display:     block;
     position:    absolute;
     top:         0%;
@@ -198,17 +198,17 @@ a.suspend:hover { color:#ffffff; }
 
 .provide
 {
-    padding:     0;
+    padding:     0px;
     display:     block;
     position:    absolute;
-    margin-top:  150px;
+    margin-top:  130px;
     margin-left: 270px;
     z-index:     -1;
 }
 
 .sad
 {
-    padding:        0;
+    padding:        0px;
     top:            100%;
     left:           100%;
     display:        block;
@@ -226,7 +226,7 @@ a.suspend:hover { color:#ffffff; }
 /* for download page */
 .cover
 {
-    padding:     0;
+    padding:     0px;
     display:     block;
     position:    absolute;
     top:         50%;
@@ -240,7 +240,7 @@ a.suspend:hover { color:#ffffff; }
 .form
 {
     width:          400px;
-    padding-bottom: 60;
+    padding-bottom: 60px;
     display:        block;
     position:       absolute;
     top:            50%;
@@ -254,7 +254,7 @@ a.suspend:hover { color:#ffffff; }
 .dltext
 {
     width:          400px;
-    padding-bottom: 60;
+    padding-bottom: 60px;
     display:        block;
     position:       absolute;
     top:            50%;
