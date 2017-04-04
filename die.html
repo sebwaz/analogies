@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    
+  <head>
+    <meta charset="UTF-8">
+    <meta property="og:image" content="http://analogies.thatsebas.com/img/cover.jpg">
+    <title>a n a l o g i e s 🏃</title>
+    
+    <link rel="stylesheet" href="die.css">
+    <link rel="icon" type="image/png" href="img/ico.png">
+    
+    <script src="lib/p5.js" type="text/javascript"></script>
+    <!-- <script src="main.js" type="text/javascript"></script> -->
+  </head>
+    
+  
+  <body>
+      <div>
+          <h2>
+            <p id="countdown"></p>
+          </h2>
+
+          <script>
+              // Set the date we're counting down to
+              var countDownDate = new Date("Apr 20, 2017 19:00:00").getTime();
+              var countUpDate   = new Date().getTime();
+
+              // Update every second
+              var x = setInterval(function() {
+                var now = new Date().getTime();
+
+                var distance   = countDownDate - now;
+                var days       = ("0" + Math.floor(distance  / (1000 * 60 * 60 * 24))).slice(-2);
+                var hours      = ("0" + Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).slice(-2);
+                var minutes    = ("0" + Math.floor((distance % (1000 * 60 * 60))      / (1000 * 60))).slice(-2);
+                var seconds    = ("0" + Math.floor((distance % (1000 * 60))           / 1000)).slice(-2);
+                  
+                var distance2 = now - countUpDate;
+                var days2      = ("0" + Math.floor(distance2  / (1000 * 60 * 60 * 24))).slice(-2);
+                var hours2     = ("0" + Math.floor((distance2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).slice(-2);
+                var minutes2   = ("0" + Math.floor((distance2 % (1000 * 60 * 60))      / (1000 * 60))).slice(-2);
+                var seconds2   = ("0" + Math.floor((distance2 % (1000 * 60))           / 1000)).slice(-2);
+
+                // Display the result in the element with id="demo"
+                document.getElementById("countdown").innerHTML = days2 + ":" + hours2 + ":" + minutes2 + ":" + seconds2 + " WASTED<br>" +
+                                                                 days  + ":" + hours  + ":" + minutes  + ":" + seconds  + " LEFT";
+
+                // If the count down is finished, write some text 
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("countdown").innerHTML = 'EXPIRED';
+                }
+              }, 1000);
+          </script>
+      </div>
+  </body>
+    
+</html>
+    
