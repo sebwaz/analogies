@@ -46,6 +46,13 @@ var r_b = 0
 var g_b = 0
 var b_b = 0
 
+var die;
+
+function preload()
+{
+    die = loadSound('samples/die.mp3');
+}
+
 function reset()
 {
     s1x1 = 285
@@ -75,7 +82,6 @@ function reset()
     b_a = 0
 }
 
-// on init
 function setup()
 {
     createCanvas(w, h)
@@ -84,6 +90,7 @@ function setup()
     fg = loadImage("fg.png");
     bg = loadImage("bg.png");
     gd = loadImage("gd.png");
+    die.loop();
 }
 
 function draw()
@@ -103,14 +110,20 @@ function draw()
         s1x4 = s1x4 - 0.07*30
         s1y4 = s1y4 + 0.38*30
     }
+    
     else if (s2y1 == s2y3)
     {
         s2y3 -= 1
         frameRate(2)
     }
+    
     else if (s2y3 < 635)
     {
         frameRate(60)
+        s2x3 = s2x3 - 0.30*30
+        s2y3 = s2y3 + 0.33*30
+        s2x4 = s2x4 - 0.30*30
+        s2y4 = s2y4 + 0.33*30
         
         if (s1y1 < 420)
         {
@@ -119,10 +132,6 @@ function draw()
             s1x2 = s1x2 - 0.07*30
             s1y2 = s1y2 + 0.38*30
         }
-        s2x3 = s2x3 - 0.30*30
-        s2y3 = s2y3 + 0.33*30
-        s2x4 = s2x4 - 0.30*30
-        s2y4 = s2y4 + 0.33*30
         if (s2y3 > 570)
         {
             s2x1 = s2x1 - 0.30*30
@@ -156,11 +165,10 @@ function draw()
     stroke(255)
     fill(r_a, g_a, b_a)
     quad(s1x1, s1y1, s1x2, s1y2, s1x3, s1y3, s1x4, s1y4);
-    
     fill(r_b, g_b, b_b)
     quad(s3x1, s3y1, s3x2, s3y2, s3x3, s3y3, s3x4, s3y4);
-    
     fill(r_a, g_a, b_a)
     quad(s2x1, s2y1, s2x2, s2y2, s2x3, s2y3, s2x4, s2y4);
+    
     image(fg, p_x, p_y, 400, 222);
 }

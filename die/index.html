@@ -10,6 +10,7 @@
     <link rel="icon" type="../image/png" href="../img/ico.png">
     
     <script src="../lib/p5.js" type="text/javascript"></script>
+    <script src="lib/p5.sound.js" type="text/javascript"></script>
     <script src="die.js" type="text/javascript"></script>
   </head>
     
@@ -17,18 +18,20 @@
   <body>
       <div>
           <h2>
-            <p id="countdown"></p>
+            <p id="countdown"><br>
+              </p>
+              <p id="links">
+              <a href="https://www.youtube.com/user/DoctorChairPro" target="_blank">@doctorchairpro</a><br>
+              <a href="https://www.instagram.com/doctorchair/" target="_blank">@doctorchair</a><br>
+              <a href="https://soundcloud.com/thatsebas/heat-death?in=thatsebas/sets/analogies-1" target="_blank">@that_sebas</a><br>
+              <br>
+              <a href="http://analogies.thatsebas.com/">ｒｅｔｕｒｎ</a>
+              </p>
           </h2>
-          <h1>
-              for notifications on release, follow<br>
-              @doctorchairpro on youtube<br>
-              @doctorchair on instagram<br>
-              @ansi_beats on instagram<br>
-          </h1>
 
           <script>
               // Set the date we're counting down to
-              var countDownDate = new Date("Apr 20, 2017 19:00:00").getTime();
+              var countDownDate = new Date('Apr 15, 2017 21:00:00').getTime();
               var countUpDate   = new Date().getTime();
 
               // Update every second
@@ -54,7 +57,7 @@
                 // If the count down is finished, write some text 
                 if (distance < 0) {
                     clearInterval(x);
-                    document.getElementById("countdown").innerHTML = 'EXPIRED';
+                    document.getElementById("countdown").innerHTML = '<iframe width="854" height="480" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>';
                 }
               }, 1000);
           </script>
