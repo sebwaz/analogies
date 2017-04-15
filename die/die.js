@@ -91,6 +91,7 @@ function setup()
     bg = loadImage("bg.png");
     gd = loadImage("gd.png");
     die.loop();
+    die.amp(0.33);
 }
 
 function draw()

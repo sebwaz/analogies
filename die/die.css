@@ -39,5 +39,16 @@ canvas
     left:        50%;
     z-index:     -1;
     margin-top:  -440px;
-    margin-left: -500px;
+    margin-left: -600px;
+}
+
+#video
+{
+    padding:     0px;
+    margin:      auto;
+    display:     block;
+    position:    absolute;
+    z-index:     1;
+    margin-top:  -100px;
+    margin-left: -100px;
 }
