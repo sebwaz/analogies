@@ -46,13 +46,6 @@ var r_b = 0
 var g_b = 0
 var b_b = 0
 
-var die;
-
-function preload()
-{
-    die = loadSound('samples/die.mp3');
-}
-
 function reset()
 {
     s1x1 = 285
@@ -90,8 +83,6 @@ function setup()
     fg = loadImage("fg.png");
     bg = loadImage("bg.png");
     gd = loadImage("gd.png");
-    die.loop();
-    die.amp(0.33);
 }
 
 function draw()
