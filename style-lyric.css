@@ -150,6 +150,18 @@ a.suspend:hover { color:#ffffff; }
     z-index:     -1;
 }
 
+.heat-link
+{
+    padding:     0px;
+    display:     block;
+    position:    absolute;
+    top:         0%;
+    left:        0%;
+    margin-top:  0px;
+    margin-left: 480px;
+    z-index:     1;
+}
+
 .windy
 {
     padding:     0px;
